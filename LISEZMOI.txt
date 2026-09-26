@@ -1,0 +1,61 @@
+SITE PROVITRES-64 — nettoyage-vitres-bayonne.fr
+================================================
+
+Ce dossier contient le site complet (HTML/CSS/JS), prêt à être mis en ligne.
+Les adresses des pages sont IDENTIQUES à celles du site Squarespace :
+aucune perte de référencement.
+
+------------------------------------------------
+ÉTAPE 1 — Déposer le site sur GitHub (5 min)
+------------------------------------------------
+1. Va sur github.com > « New repository » > nom : provitres64-site > « Create repository ».
+2. Clique sur « uploading an existing file ».
+3. Glisse TOUT le contenu de ce dossier (pas le dossier lui-même) :
+   index.html, les fichiers .html, le dossier assets, le dossier blog-actus,
+   _redirects, _headers, netlify.toml, sitemap.xml, robots.txt, favicon.ico, 404.html.
+4. Clique sur « Commit changes ».
+
+------------------------------------------------
+ÉTAPE 2 — Mettre en ligne sur Netlify (5 min)
+------------------------------------------------
+1. Sur netlify.com > « Add new site » > « Import an existing project » > GitHub.
+2. Choisis le dépôt provitres64-site. Laisse la commande de build VIDE, dossier de publication : « . ».
+3. « Deploy ». Le site est visible sur une adresse provisoire du type xxx.netlify.app.
+   → Ton site Squarespace reste en ligne pendant ce temps : zéro risque.
+4. Vérifie les pages sur l'adresse provisoire.
+
+------------------------------------------------
+ÉTAPE 3 — Formulaire de contact
+------------------------------------------------
+Le formulaire utilise Netlify Forms (rien à installer).
+Netlify > ton site > « Forms » > « Form notifications » > ajoute
+contact@nettoyage-vitres-bayonne.fr pour recevoir chaque demande de devis par email.
+
+------------------------------------------------
+ÉTAPE 4 — Bascule du nom de domaine (le jour J)
+------------------------------------------------
+1. Netlify > « Domain management » > « Add a domain » > www.nettoyage-vitres-bayonne.fr.
+2. Chez ton registrar (là où le domaine est acheté), remplace les enregistrements DNS
+   de Squarespace par ceux indiqués par Netlify.
+3. Netlify active le HTTPS automatiquement.
+4. Google Search Console > Sitemaps > soumettre : sitemap.xml
+5. Garde l'abonnement Squarespace 1 mois de plus par sécurité, puis résilie.
+
+------------------------------------------------
+Ce qui a été fait pour le référencement
+------------------------------------------------
+- 24 anciennes URL conservées à l'identique (pages, villes, syndics, 9 articles).
+- /provitres-64 (doublon de l'accueil sur Squarespace) redirigé en 301 vers l'accueil.
+- Un seul H1 par page, titre et description uniques sur chaque page.
+- Balisage Schema.org (entreprise locale, services, FAQ, articles, fil d'Ariane).
+- sitemap.xml + robots.txt.
+- Nouvelles pages : service à la personne, panneaux solaires, mentions légales,
+  13 nouvelles villes (Hendaye, Saint-Jean-de-Luz, Urrugne, Boucau, Ustaritz, Bidart,
+  Hasparren, Saint-Pée-sur-Nivelle, Cambo-les-Bains, Ciboure, Saint-Pierre-d'Irube,
+  Mouguerre, Ascain).
+- Les 2 pages Dax sont différenciées : /lavage-vitres-dax = particuliers,
+  /laveur-vitres-dax = professionnels (hôtels, thermes, commerces).
+- Page Seignosse réécrite (c'était une copie de la page Bayonne).
+
+À ajouter plus tard : tes photos de chantier (dossier assets), le logo officiel
+Accès SAP, la nouvelle vidéo.
