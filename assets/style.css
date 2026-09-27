@@ -506,3 +506,14 @@ h1,h2,h3,h4,.hero h1{color:#1B1C2A}
 .methods li{display:grid;gap:2px;padding-bottom:14px;border-bottom:1px solid #EEEEF3}
 .methods li:last-child{border:0;padding-bottom:0}
 .methods span{color:#5B5D72;font-size:.95rem}
+/* === Corrections 27/09 === */
+/* photos entières (logo ProVitres visible) */
+.card-img{aspect-ratio:1/1;object-fit:cover}
+/* accueil : image visible dès l'ouverture, aussi sur mobile */
+@media (max-width:560px){
+  .hero .hero-art.hero-home{display:block;max-width:none;margin:22px 0 0}
+  .hero-home .hero-img{aspect-ratio:4/3}
+}
+/* carte zone d'intervention */
+.zone-map{height:460px;margin-top:28px;border-radius:24px;overflow:hidden;z-index:0}
+@media (max-width:560px){.zone-map{height:340px}}
