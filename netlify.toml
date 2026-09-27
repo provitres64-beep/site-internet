@@ -1,14 +1,2 @@
 [build]
   publish = "."
-
-[[redirects]]
-  from = "http://nettoyage-vitres-bayonne.fr/*"
-  to = "https://www.nettoyage-vitres-bayonne.fr/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://nettoyage-vitres-bayonne.fr/*"
-  to = "https://www.nettoyage-vitres-bayonne.fr/:splat"
-  status = 301
-  force = true
