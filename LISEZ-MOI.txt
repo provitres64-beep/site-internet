@@ -1,0 +1,30 @@
+NOUVEAUX FICHIERS À INTÉGRER SUR GITHUB — ProVitres-64 — 11/10/2026
+=====================================================================
+
+Contenu : 144 fichiers (+ ce LISEZ-MOI)
+- 70 nouvelles pages villes (nettoyage-vitres-....html) : Capbreton, Soustons,
+  Saint-Vincent-de-Tyrosse, Labenne, Ondres, Saint-Martin-de-Seignanx, Hossegor...
+  jusqu'à La Bastide-Clairence (suite du calendrier SEO, par population)
+- 14 pages secteurs pour les villages (laveur-vitres-secteur-....html)
+- 26 pages pros par ville (entreprise-nettoyage-vitres-....html)
+- 30 nouveaux articles dans le dossier blog-actus
+- 4 fichiers MIS À JOUR (ils remplacent les anciens) :
+    blog-actus.html        -> les 30 articles apparaissent dans « Conseils »
+    zone-intervention.html -> liens vers toutes les nouvelles pages
+    sitemap.xml            -> 243 adresses (103 + 140)
+    _redirects             -> règles des 30 nouveaux articles
+
+COMMENT FAIRE
+1. Ouvrir le dépôt GitHub du site vitres > « Add file » > « Upload files »
+2. GitHub accepte 100 fichiers par envoi, donc 2 envois :
+   ENVOI 1 : glisser le dossier « blog-actus » + les 4 fichiers mis à jour
+             (blog-actus.html, zone-intervention.html, sitemap.xml, _redirects)
+             + tous les fichiers qui commencent par « entreprise » et « laveur »
+             -> « Commit changes »
+   ENVOI 2 : tous les fichiers qui commencent par « nettoyage » -> « Commit changes »
+   (le fichier _redirects est caché sur Mac : Cmd + Maj + . pour l'afficher)
+3. Netlify met le site à jour tout seul en 1 à 2 minutes.
+4. Vérifier : https://www.nettoyage-vitres-bayonne.fr/nettoyage-vitres-capbreton
+
+L'agent Google a déjà les 150 URL dans urls-a-indexer.xlsx (onglet Vitres),
+10 par jour du 12/10 au 26/10. À mettre en ligne AVANT DEMAIN 8h50.
